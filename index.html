@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resumen de Componentes y Domótica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Trabajo Práctico</h1>
+  </header>
+
+  <main>
+    <div class="resumenes">
+    <section>
+  <h2>Componentes electrónicos</h2>
+    <div class="icono-texto">
+        <img src="imagenes/resisstencia-removebg-preview (1).png" alt="Resistencia">
+        <p>Las resistencias son dispositivos que limitan el paso de corriente en un circuito. Su función principal es proteger componentes, dividir tensiones y controlar la corriente. Su valor se mide en ohmios (Ω).</p>
+        </div>
+
+        <div class="icono-texto">
+        <img src="imagenes/descarga-removebg-preview.png" alt="Inductor">
+        <p>Los inductores almacenan energía en forma de campo magnético cuando pasa corriente a través de ellos. Se usan en filtros, fuentes de poder y circuitos de alta frecuencia. Su unidad es el henrio (H).</p>
+        </div>
+
+        <div class="icono-texto">
+        <img src="imagenes/png-transparent-center-tap-transformer-electronic-symbol-electronics-wiring-diagram-symbol-miscellaneous-angle-white-thumbnail-removebg-preview.png" alt="Transformador">
+        <p>Un transformador cambia el voltaje de una corriente alterna (AC) usando inducción electromagnética entre dos bobinas. Es común en cargadores y redes eléctricas.</p>
+        </div>
+
+        <div class="icono-texto">
+        <img src="imagenes/capacitor-removebg-preview.png" alt="Capacitor">
+        <p>Los capacitores almacenan energía en forma de campo eléctrico, se cargan y descargan rápidamente. Se utilizan para estabilizar voltajes, filtrar señales o mantener energía temporalmente. Su unidad es el faradio (F).</p>
+        </div>
+
+        <div class="icono-texto">
+        <img src="imagenes/images-removebg-preview.png" alt="Pilas">
+        <p>Las pilas convierten energía química en eléctrica. Hay pilas AA, AAA o de litio (como las de celulares). Una batería es un conjunto de pilas que permite mayor voltaje o capacidad, como las de autos o notebooks.</p>
+        </div>
+    </section>
+
+
+    <section>
+      <h2>Diodos, LED y Transistores</h2>
+      
+      <div class="icono-texto">
+        <img src="imagenes/diodo-removebg-preview.png" alt="Diodo">
+        <p>El diodo permite el paso de corriente en una sola dirección. Es usado para proteger circuitos y convertir corriente alterna en continua.</p>
+      </div>
+
+      <div class="icono-texto">
+        <img src="imagenes/led-removebg-preview.png" alt="Icono LED" />
+        <p>
+        El LED es un diodo que emite luz cuando pasa corriente por él. Es eficiente, de larga duración y se usa en luces e indicadores.
+        </p>
+      </div>
+      <div class="icono-texto">
+        <img src="imagenes/transitor-removebg-preview.png" alt="Transistor">
+        <p>El transistor puede actuar como interruptor o amplificador. Tiene tres terminales: base, colector y emisor. Controlando la corriente de la base, se regula el paso entre colector y emisor.</p>
+      </div>
+      
+      <p>Tipos de transistores:</p>
+      <ul>
+        <li>
+            BJT (Transistor Bipolar de Unión): Hay NPN y PNP. Se usan en amplificadores y controles analógicos.
+            <img src="imagenes/transistores04-removebg-preview.png" alt="NPN-PNP" class="img-transistor">
+        </li>
+        <li>FET (Transistor de Efecto de Campo): Controlado por voltaje. Incluye MOSFET y JFET, usados en computadoras y circuitos rápidos.</li>
+        <li>IGBT: Mezcla BJT y MOSFET. Se usa en control de motores, energía solar, etc.</li>
+      </ul>
+    </section>
+    </div>
+
+    <section>
+        <h2>Transistores Cuánticos</h2>
+        <p>
+        Los transistores cuánticos utilizan principios de la mecánica cuántica como el túnel cuántico y la superposición para controlar la corriente eléctrica. A diferencia de los transistores clásicos, pueden manejar electrones de forma individual y alcanzar tamaños nanométricos. <br>
+        Un ejemplo es el transistor de un solo electrón (SET), que permite un control extremadamente preciso y eficiente. También se investigan tecnologías con puntos cuánticos, nanotubos de carbono y materiales topológicos. <br>
+        Aunque aún están en desarrollo, los transistores cuánticos prometen ser más rápidos, pequeños y eficientes, y son fundamentales para la futura computación cuántica y el avance en inteligencia artificial y criptografía. <br>
+        </p>
+    </section>
+
+    <section>
+      <h2>Disparador Schmitt</h2>
+
+      <h3>1) Tres ejemplos diferentes de histéresis que no tengan que ver con la lógica digital:</h3>
+      <ul>
+        <li>
+          <strong>Termostato de una heladera:</strong> No enciende y apaga continuamente con pequeños cambios de temperatura. Tiene dos puntos de referencia: se apaga al alcanzar cierta temperatura baja y vuelve a encender solo si sube por encima de otro valor más alto. Esto evita ciclos rápidos de encendido/apagado.
+        </li>
+        <li>
+          <strong>Frenos de un auto con ABS:</strong> El sistema no actúa apenas detecta una pequeña pérdida de tracción. Solo interviene cuando la diferencia entre velocidad de las ruedas es suficiente, evitando así respuestas innecesarias ante mínimas variaciones.
+        </li>
+        <li>
+          <strong>Imanes en materiales ferromagnéticos:</strong> Al magnetizar un material, no vuelve exactamente a su estado original cuando se elimina el campo. La curva de histéresis magnética muestra cómo la magnetización depende de su historia previa.
+        </li>
+      </ul>
+      <h3>2) Tipos de compuertas lógicas: tecnología, características y aplicaciones:</h3>
+      
+      <table class="tabla-compuertas">
+        <tr>
+            <th>AND</th>
+            <th>OR</th>
+            <th>NOT</th>
+            <th>NAND</th>
+            <th>NOR</th>
+            <th>XOR</th>
+            <th>XNOR</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/and.png" alt="Compuerta AND"></td>
+            <td><img src="imagenes/or.png" alt="Compuerta OR"></td>
+            <td><img src="imagenes/not.png" alt="Compuerta NOT"></td>
+            <td><img src="imagenes/nand.png" alt="Compuerta NAND"></td>
+            <td><img src="imagenes/nor.png" alt="Compuerta NOR"></td>
+            <td><img src="imagenes/xor.png" alt="Compuerta XOR"></td>
+            <td><img src="imagenes/xnor.png" alt="Compuerta XNOR"></td>
+        </tr>
+      </table>
+
+      <p>Tecnologías más comunes:</p>
+      <ul>
+        <li>TTL (Transistor-Transistor Logic): Voltaje de alimentación: 5V. Rápida (tiempos de respuesta en ns). Más consumo que CMOS.</li>
+        <li>CMOS (Complementary Metal-Oxide-Semiconductor): Voltaje de alimentación: 3V a 15V. Muy bajo consumo. Más lento que TTL.</li>
+      </ul>
+      <p>Velocidades:</p>
+      <ul>
+        <li>TTL estándar: ~10 ns</li>
+        <li>TTL rápido (74FXX): ~1-2 ns</li>
+        <li>CMOS: ~10-100 ns (depende del tipo y voltaje)</li>
+      </ul>
+      <p>Aplicaciones: Sistemas de control industrial, computadoras y microcontroladores, domótica, alarmas, relojes digitales, temporizadores.</p>
+      <h3>3) Compuertas del tipo Schmitt-trigger y sus códigos:</h3>
+      <p>Las compuertas Schmitt-trigger están diseñadas para trabajar con señales de entrada ruidosas o lentas, generando una salida limpia y digital.</p>
+      <p>Ejemplos y códigos:</p>
+      <ul>
+        <li>CD4093: Cuádruple NAND con disparador Schmitt.</li>
+        <li>CD40106: Compuerta NOT con disparador Schmitt, usada en osciladores.</li>
+        <li>74HC14: Inversor con Schmitt Trigger, versión TTL de alta velocidad.</li>
+        <li>74LS132: NAND Schmitt Trigger TTL.</li>
+      </ul>
+      <p>Estas compuertas se identifican por llevar una forma ondulada en su símbolo (representando la histéresis).</p>
+    </section>
+    <section>
+      <h3>4) Informe sobre domótica:</h3>
+      <p>
+        La domótica es el conjunto de tecnologías aplicadas al control y automatización inteligente de viviendas, edificios y espacios. Permite gestionar distintos sistemas como la iluminación, climatización, seguridad, consumo eléctrico y electrodomésticos, de manera automática o a distancia.
+      </p>
+      <p>
+        Su objetivo es brindar mayor confort, eficiencia energética, seguridad y accesibilidad. Se puede controlar desde interfaces como paneles táctiles, computadoras, celulares o comandos de voz.
+      </p>
+      <p>Un sistema domótico se basa en tres componentes fundamentales:</p>
+      <ol>
+        <li>Sensores: captan información del entorno, como temperatura, presencia de personas, humedad, etc.</li>
+        <li>Unidad de control: procesa la información recibida y toma decisiones programadas.</li>
+        <li>Actuadores: ejecutan las órdenes del sistema, como activar una lámpara o encender el aire.</li>
+      </ol>
+      <p>Ejemplos de usos:</p>
+      <ul>
+        <li>Encender luces automáticamente.</li>
+        <li>Controlar la temperatura.</li>
+        <li>Activar alarmas de seguridad.</li>
+        <li>Monitorear el hogar desde el celular.</li>
+      </ul>
+      <p>Ventajas:</p>
+      <ul>
+        <li>Ahorro de energía</li>
+        <li>Seguridad</li>
+        <li>Comodidad</li>
+        <li>Accesibilidad</li>
+      </ul>
+      <p>Tecnologías usadas:</p>
+      <ul>
+        <li>WiFi, ZigBee, Bluetooth</li>
+        <li>Protocolos como KNX o Z-Wave</li>
+        <li>Asistentes de voz como Google Assistant y Alexa</li>
+      </ul>
+      <p>
+        La domótica ya está presente en hogares, oficinas, hoteles y edificios inteligentes. Su integración con inteligencia artificial y el Internet de las Cosas (IoT) está creando espacios cada vez más autónomos.
+      </p>
+    </section>
+    <section>
+      <h3>5) Sensores y accesorios para domótica – descripción y presupuesto:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Sensor / Accesorio</th>
+            <th>Descripción breve</th>
+            <th>Precio aprox. (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Sensor PIR</td><td>Detecta movimiento por infrarrojo.</td><td>2 – 5</td></tr>
+          <tr><td>Sensor de temperatura (DHT11/DHT22)</td><td>Mide temperatura y humedad.</td><td>2 – 10</td></tr>
+          <tr><td>Sensor magnético</td><td>Detecta apertura/cierre de puertas o ventanas.</td><td>1 – 3</td></tr>
+          <tr><td>Relé de 5V/12V</td><td>Permite controlar luces o aparatos desde un microcontrolador.</td><td>2 – 4</td></tr>
+          <tr><td>Módulo WiFi (ESP8266/ESP32)</td><td>Conecta sensores a la red y permite control remoto.</td><td>5 – 10</td></tr>
+          <tr><td>Cámara IP WiFi</td><td>Para videovigilancia remota.</td><td>20 – 50</td></tr>
+          <tr><td>Sensor de gas (MQ-2, MQ-5)</td><td>Detecta gases inflamables o humo.</td><td>3 – 7</td></tr>
+          <tr><td>Pantalla táctil LCD</td><td>Permite controlar el sistema domótico visualmente.</td><td>10 – 25</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Ejemplo de presupuesto básico (en USD):</strong></p>
+      <ul>
+        <li>2x sensores PIR: $8</li>
+        <li>2x sensores magnéticos: $4</li>
+        <li>1x DHT22: $5</li>
+        <li>1x relé doble: $3</li>
+        <li>1x módulo ESP32: $8</li>
+        <li>1x cámara IP: $25</li>
+      </ul>
+      <p><strong>Total estimado:</strong> $53 USD</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sistemas Digitales - Angel Bravo <br> Zoe Iman 6°1 informática </p>
+  </footer>
+</body>
+</html>
