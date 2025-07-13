@@ -121,6 +121,14 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 15px;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+iframe {
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
 }
 
 table, th, td {
@@ -158,12 +166,29 @@ footer {
 }
 
 @media (max-width: 768px) {
+  main {
+    padding: 20px;
+  }
+
+  section {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
   .resumenes {
     flex-direction: column;
     align-items: center;
   }
+
   .resumenes section {
-    width: 90%;
+    width: 100%;
+  }
+
+  .icono-texto {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .icono-texto img,
@@ -174,10 +199,18 @@ footer {
 
   .img-transistor {
     width: 100%;
-    max-width: 150px; 
+    max-width: 150px;
     height: auto;
     margin: 10px auto;
     display: block;
   }
+  .tabla-compuertas img {
+    max-width: 70px;
+    height: auto;
+  }
 
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
 }
