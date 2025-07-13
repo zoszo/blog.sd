@@ -140,6 +140,22 @@ footer {
   margin-top: 30px;
 }
 
+.boton-estetico {
+  background-color: #98A1BC;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boton-estetico:hover {
+  background-color: #555879;
+  transform: scale(1.05);
+}
 
 @media (max-width: 768px) {
   .resumenes {
@@ -163,4 +179,5 @@ footer {
     margin: 10px auto;
     display: block;
   }
+
 }
