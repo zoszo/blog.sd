@@ -100,7 +100,7 @@ ul, ol {
   margin: 20px auto;
   max-width: 100%;
   box-sizing: border-box;
-  display: flex;
+  display: block;
   white-space: nowrap;
   justify-content: center;
 }
