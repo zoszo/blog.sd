@@ -94,19 +94,21 @@ ul, ol {
   transition: transform 0.3s ease;
 }
 
-/* Contenedor para scroll horizontal de la tabla */
 .tabla-wrapper {
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* mejor scroll en iOS */
-  margin-top: 20px;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: block;
+  white-space: nowrap;
 }
 
-/* Tabla dentro del contenedor */
 .tabla-compuertas {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #bbb;
-  min-width: 600px; /* para evitar que quede muy comprimida */
+  table-layout: auto;
 }
 
 .tabla-compuertas th, .tabla-compuertas td {
@@ -114,7 +116,7 @@ ul, ol {
   text-align: center;
   vertical-align: middle;
   border: 1px solid #bbb;
-  max-width: 120px;
+  max-width: none; /* o elimínalo */
   white-space: normal;
 }
 
