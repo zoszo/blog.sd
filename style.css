@@ -100,14 +100,15 @@ ul, ol {
   margin: 20px auto;
   max-width: 100%;
   box-sizing: border-box;
-  display: block;
+  display: flex;
   white-space: nowrap;
+  justify-content: center;
 }
 
 .tabla-compuertas {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #bbb;
+  border: none;
   table-layout: auto;
 }
 
@@ -115,7 +116,7 @@ ul, ol {
   padding: 10px;
   text-align: center;
   vertical-align: middle;
-  border: 1px solid #bbb;
+  border: none;
   max-width: none; /* o elimínalo */
   white-space: normal;
 }
