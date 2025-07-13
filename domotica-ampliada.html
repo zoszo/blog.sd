@@ -1,0 +1,107 @@
+<!-- domotica-ampliada.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Informe completo de Domótica</title>
+  <style>
+    body {
+      font-family: Helvetica, sans-serif;
+      padding: 20px;
+      background-color: #F4EBD3;
+      color: #333;
+      line-height: 1.8;
+    }
+    h1, h2 {
+      color: #98A1BC;
+    }
+    .boton-estetico {
+    background-color: #98A1BC;
+    color: white;
+    border: none;
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 20px;
+
+    }
+
+    .boton-estetico:hover {
+    background-color: #555879;
+    transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+ 
+  <h2>Introducción</h2>
+  <p>
+    La domótica, también conocida como automatización del hogar, se ha convertido en una herramienta esencial en la vida moderna. Consiste en integrar tecnología dentro del entorno doméstico para gestionar de forma automatizada distintos sistemas del hogar: desde la iluminación y climatización hasta la seguridad y el entretenimiento. Gracias a los avances tecnológicos y al desarrollo del Internet de las Cosas (IoT), hoy es posible controlar estos sistemas desde cualquier lugar mediante una aplicación móvil o comandos de voz. La domótica no solo ofrece comodidad, sino que también mejora la eficiencia energética, la seguridad y la accesibilidad, adaptándose a las necesidades de cada usuario.
+ </p>
+
+  <h2>¿Qué es la domótica?</h2>
+  <p>
+   El término domótica combina “domus” (hogar en latín) y “tica” (automática), haciendo referencia a los sistemas que automatizan funciones dentro de una vivienda. Estos sistemas permiten que diferentes dispositivos del hogar funcionen de manera coordinada y, en muchos casos, autónoma. Ya no se trata solo de encender luces o ajustar la temperatura, sino de generar un entorno inteligente capaz de aprender rutinas, responder a situaciones específicas y optimizar recursos. La domótica transforma espacios comunes en ambientes eficientes y personalizados.
+  </p>
+
+  <h2>Funcionamiento</h2>
+  <p>
+    El sistema domótico opera a través de la interacción entre sensores, procesadores y actuadores. Los sensores detectan cambios en el entorno, como la temperatura, el movimiento o la presencia de personas. Esa información se transmite a un procesador o controlador central, que analiza los datos y determina qué acciones tomar. Finalmente, los actuadores ejecutan esas órdenes, activando dispositivos como luces, motores, alarmas o electrodomésticos. Todo esto puede gestionarse mediante interfaces intuitivas como aplicaciones móviles, pantallas táctiles o asistentes virtuales.
+  </p>
+
+  <h2>Beneficios</h2>
+  <ul>
+    <li><strong>Ahorro energético:</strong> Al automatizar sistemas como la iluminación o la climatización, se evitan desperdicios energéticos. Por ejemplo, las luces se apagan automáticamente cuando no hay nadie en la habitación, o se regula la temperatura según la hora del día.</li>
+    <li><strong>Mayor seguridad:</strong> Con sensores de movimiento, cámaras conectadas a internet y alarmas inteligentes, se refuerza la seguridad del hogar. Además, se pueden recibir alertas en tiempo real ante cualquier incidente, incluso desde el celular.</li>
+    <li><strong>Confort personalizado:</strong> Los usuarios pueden programar rutinas según sus hábitos. Por ejemplo, al despertar se puede activar una secuencia que encienda las luces, abra las cortinas y ponga música.</li>
+    <li><strong>Accesibilidad:</strong> Para personas con movilidad reducida o adultos mayores, la domótica permite un control más sencillo del entorno sin necesidad de desplazarse, lo cual mejora su autonomía.</li>
+    <li><strong>Valor agregado:</strong> Las viviendas inteligentes tienen mayor atractivo en el mercado inmobiliario, lo cual representa una ventaja al momento de vender o alquilar un inmueble.</li>
+  </ul>
+
+  <h2>Tecnología utilizada</h2>
+  <ul>
+    <li><strong>Sensores y actuadores:</strong>  Son fundamentales para la interacción con el entorno. Detectan variables como temperatura, humedad, luz o movimiento, y permiten ejecutar acciones concretas como abrir una puerta o apagar un electrodoméstico.</li>
+    <li><strong>Redes de comunicación:</strong> Wi-Fi, Zigbee, Z-Wave y Bluetooth permiten conexión sin cables.</li>
+        <ul>
+            <li>
+                <strong>Wi-Fi</strong> es una tecnología muy utilizada porque la mayoría de los hogares ya cuentan con esta red. Permite gran velocidad de transmisión de datos, pero consume más energía que otras opciones y puede saturarse con muchos dispositivos conectados.
+            </li>
+            <li>
+                <strong>Zigbee</strong> es una tecnología inalámbrica de bajo consumo pensada específicamente para la domótica. Su gran ventaja es que permite crear redes en malla, donde los dispositivos se comunican entre sí, extendiendo la cobertura de manera eficiente.
+            </li>
+            <li>
+                <strong>Z-Wave</strong> es similar a Zigbee en cuanto a consumo bajo y comunicación en malla, pero opera en frecuencias diferentes, lo que reduce las interferencias con otras redes domésticas. Es una opción confiable y ampliamente utilizada en productos de domótica profesional.
+            </li>
+            <li>
+                <strong>Bluetooth</strong>, especialmente en su versión Low Energy (BLE), se utiliza en dispositivos que requieren bajo consumo y comunicación de corto alcance. Es ideal para automatización sencilla o para dispositivos portátiles como cerraduras inteligentes o controles de iluminación.
+            </li>
+        </ul>  
+    <li><strong>Controladores:</strong>Estos dispositivos reciben los datos de los sensores y toman decisiones automáticas según la programación definida. Pueden ser módulos físicos o incluso software basado en la nube.</li>
+    <li><strong>Plataformas de gestión:</strong>  A través de aplicaciones móviles o interfaces web, los usuarios pueden monitorear y controlar todos los dispositivos del sistema. Muchas de estas plataformas son compatibles con asistentes virtuales como Alexa o Google Assistant.</li>
+    <li><strong>Inteligencia artificial:</strong>  En sistemas más avanzados, la IA permite que el hogar aprenda de los hábitos del usuario, optimizando el funcionamiento del sistema sin necesidad de intervención manual.</li>
+  </ul>
+
+  <h2>Seguridad</h2>
+  <p>
+   Uno de los aspectos más importantes a tener en cuenta al implementar un sistema domótico es la seguridad digital. Al estar conectados a internet, los dispositivos son potencialmente vulnerables a ataques cibernéticos. Por eso es esencial cambiar las contraseñas predeterminadas, mantener los dispositivos actualizados y utilizar redes protegidas. También es recomendable que la red domótica esté separada del resto de la red doméstica para reducir riesgos.
+  </p>
+
+  <h2>Conclusión</h2>
+  <p>
+    La domótica representa una evolución en la forma en que interactuamos con nuestro entorno. Más allá del confort, se trata de una herramienta potente para optimizar recursos, mejorar la calidad de vida y garantizar mayor seguridad. A pesar de ciertos desafíos, es evidente que el futuro de los hogares será cada vez más inteligente, y la domótica tendrá un papel clave en esa transformación.
+  <br>
+  </p>
+  <br>
+  <button onclick="cerrarIframe()" class="boton-estetico">Cerrar</button>
+
+  <script>
+    function cerrarIframe() {
+      window.parent.document.getElementById("domoticaExtra").style.display = "none";
+    }
+  </script>
+</body>
+</html>
